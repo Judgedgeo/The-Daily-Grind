@@ -1,3 +1,9 @@
+var saveBtnEl = $(".saveBtn");
+var currentDate = $("#currentDay");
+var currentAppointment =$("#appointment")
+var rowEl= $('.text-area')
+
+
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
@@ -9,6 +15,20 @@ $(function () {
     // time-block containing the button that was clicked? How might the id be
     // useful when saving the description in local storage?
     //
+    saveBtnEl.on('click', function () {
+      console.log("I save it");
+      localStorage.setItem
+    });
+
+
+    // if (appointment.isBefore(currentDay)) {
+    //   rowEl.addClass('past');
+    // } else if (appointment.isSame(currentDay)) {
+    //   rowEl.addClass('present');
+    // } else if (appointment.isAfter(currentDay)) {
+    //   rowEl.addClass('future');
+    // }
+
     // TODO: Add code to apply the past, present, or future class to each time
     // block by comparing the id to the current hour. HINTS: How can the id
     // attribute of each time-block be used to conditionally add or remove the
@@ -19,5 +39,16 @@ $(function () {
     // the values of the corresponding textarea elements. HINT: How can the id
     // attribute of each time-block be used to do this?
     //
+
+
     // TODO: Add code to display the current date in the header of the page.
-  });
+function displayTime()   {
+    var rightNow = dayjs().format('MMM D, YYYY [at] hh:mm:ss a');
+    currentDate.text(rightNow);
+}
+
+displayTime();
+setInterval(displayTime, 1000);
+});
+
+
