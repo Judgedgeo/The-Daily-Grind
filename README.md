@@ -2,34 +2,29 @@
 
 ## Description
 
-- Quiz you can test your knowledge in JS.
+- This is your daily planner to help you stay on track. 
 
 ## Installation
 
 - Find it on the web at https://judgedgeo.github.io/
-- Currently using HTML, CSS, and JS to execute this program.
+- Currently using HTML, CSS, Bootstrap, and JS to execute this program.
 - Please leave any notes on any changes you may perform.
 
 ## Usage
 
-- Click on the START button to begin your quiz, you have 1 minute to complete 4 questions.
+- To begin, Add type in the appointment to the right of the Time Slot.
 
-![image](https://user-images.githubusercontent.com/115055273/211437342-b5b9c8d2-cf61-4d68-bd64-b765c46ba3d2.png)
+![image](https://user-images.githubusercontent.com/115055273/212983254-c3414ae3-d80d-4870-a137-956fcd6d5ae7.png)
 
-- Select your answer and then click NEXT.
+- Once you type in the appointment, save by clicking on the disc to the right of your appointment. You must click save for each time slot. 
 
-![image](https://user-images.githubusercontent.com/115055273/211437803-6ea32163-6944-4fd7-a231-7b07dce076ba.png)
+![image](https://user-images.githubusercontent.com/115055273/212983769-141af011-b07a-45ac-a27b-6c90cea5b35b.png)
 
-
-- Once you have answered all 4 questions you may click on RESTART to try again.
-
-![image](https://user-images.githubusercontent.com/115055273/211437958-8561a54f-446e-466a-8f62-9c4987d8c4cd.png)
-
-## Credits
 
 Collaborators = George Jordan (xasdfaf)
 
 Tutorials / References to complete this project
+https://www.youtube.com/@WebDevSimplified
 https://stackoverflow.com/
 https://www.w3schools.com/default.asp
 

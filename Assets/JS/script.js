@@ -19,7 +19,6 @@ function init() {
 }
 
 function colorTimeBlocks() {
-
   $(".time-block").each(function() {
     var blockHour = parseInt($(this).attr("id").replace("hour-", ""));
     var currentHour = parseInt(moment().format("H"));
@@ -41,16 +40,3 @@ function handleSave(event) {
 
   localStorage.setItem(moment().format("DDDYYYY") + hourId, $("#" + hourId + " textarea").val());
 }
-
-
-
-
-
-
-// $(function () {
-//   function displayTime()   {
-//     var rightNow = dayjs().format('MMM D, YYYY [at] hh:mm:ss a');
-//     currentDate.text(rightNow);
-// }
-// displayTime();
-// setInterval(displayTime, 1000);
