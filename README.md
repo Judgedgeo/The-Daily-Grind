@@ -6,7 +6,7 @@
 
 ## Installation
 
-- Find it on the web at https://judgedgeo.github.io/
+- Find it on the web at https://github.com/Judgedgeo
 - Currently using HTML, CSS, Bootstrap, and JS to execute this program.
 - Please leave any notes on any changes you may perform.
 
