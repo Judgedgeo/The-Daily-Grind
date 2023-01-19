@@ -4,10 +4,8 @@ function init() {
 // Current Day
   $("#currentDay").text(moment().format("MMM D, YYYY"));
 
-
   colorTimeBlocks();
   setInterval(colorTimeBlocks, 60000);
-
 
   $(".time-block").each(function() {
     var blockId = $(this).attr("id");

@@ -2,7 +2,7 @@
 
 ## Description
 
-- This is your daily planner to help you stay on track. 
+- This is your daily planner to help you stay on track.
 
 ## Installation
 
@@ -16,9 +16,14 @@
 
 ![image](https://user-images.githubusercontent.com/115055273/212983254-c3414ae3-d80d-4870-a137-956fcd6d5ae7.png)
 
-- Once you type in the appointment, save by clicking on the disc to the right of your appointment. You must click save for each time slot. 
+- Once you type in the appointment, save by clicking on the disc to the right of your appointment. You must click save for each time slot.
 
 ![image](https://user-images.githubusercontent.com/115055273/212983769-141af011-b07a-45ac-a27b-6c90cea5b35b.png)
+
+- The Daily Planner has 3 different color formats. Grey for past, Red for current time, and Green for future time.
+
+![image](https://user-images.githubusercontent.com/115055273/212983254-c3414ae3-d80d-4870-a137-956fcd6d5ae7.png)
+
 
 
 Collaborators = George Jordan (xasdfaf)
@@ -27,6 +32,7 @@ Tutorials / References to complete this project
 https://www.youtube.com/@WebDevSimplified
 https://stackoverflow.com/
 https://www.w3schools.com/default.asp
+
 
 ## License
 
