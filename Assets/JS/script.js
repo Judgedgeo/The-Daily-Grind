@@ -1,15 +1,15 @@
 $(init);
 
 function init() {
-// Current Day
+  // Current Day
   $("#currentDay").text(moment().format("MMM D, YYYY"));
 
   colorTimeBlocks();
   setInterval(colorTimeBlocks, 60000);
 
-  $(".time-block").each(function() {
+  $(".time-block").each(function () {
     var blockId = $(this).attr("id");
-//Local storage
+    //Local storage
     $("#" + blockId + " textarea").text(localStorage.getItem(moment().format("DDDYYYY") + blockId));
   });
 
@@ -17,7 +17,7 @@ function init() {
 }
 
 function colorTimeBlocks() {
-  $(".time-block").each(function() {
+  $(".time-block").each(function () {
     var blockHour = parseInt($(this).attr("id").replace("hour-", ""));
     var currentHour = parseInt(moment().format("H"));
     $(this).removeClass("past present future");
